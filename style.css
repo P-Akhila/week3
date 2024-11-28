@@ -1,0 +1,55 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+}
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    text-align: center;
+}
+h1{
+    margin-bottom: 20px;
+    color: #555;
+}
+.qr-reader{
+    width: 100%;
+    margin: 20px 0;
+}
+.update-section{
+    margin:20px 0;
+}
+label{
+    font-weight: bold;
+}
+input[type="file"]{
+    margin-top: 10px;
+}
+.result{
+    margin-top: 30px;
+}
+#decoded-text{
+    font-size: 1.2em;
+    color: #0066cc;
+    word-wrap: break-word;
+}
+button{
+    padding: 10px 15px;
+    font-size: 14px;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+button:hover{
+    background-color: #0056b3;
+}
